@@ -1,0 +1,32 @@
+*{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.intro-container{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-flow: column;
+    padding: 10em 18em;
+}
+
+.name{
+    font-size: 5em;
+}
+
+.about{
+    width: 30em;
+    padding: 2em 0em
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin-top: 1em;
+    border: 1px solid black;
+    width: 6em;
+}

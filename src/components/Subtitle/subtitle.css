@@ -1,0 +1,29 @@
+*{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.subtitle-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0 18em;
+}
+
+.num{
+    font-size: 1.5em;
+}
+
+.title{
+    font-size: 1.8em;
+    margin: 0 0.4em; 
+    font-weight: bold;
+}
+
+.line{
+    background-color: black;
+    border: 0.5px solid black;
+    width: 25em;
+    height: 1px;
+}
