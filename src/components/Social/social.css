@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.social-container{
+    display: flex;
+    flex-flow: column;
+    width: 25px;
+    position: fixed;
+    left: 3em;
+    top: 35em;
+}
+
+.icon{
+    margin: 1em 0;
+}
+
+.bottom-line{
+    width: 0.5px;
+    height: 11em;
+    border: 0.5px solid black;
+    margin-left: 50%;
+    margin-top: 1em;
+}

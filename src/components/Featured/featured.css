@@ -1,0 +1,62 @@
+*{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.featured-container{
+    display: grid;
+    grid-template-columns: 60fr 40fr;
+    padding: 2em 18em;
+}
+
+.project-image{
+    background-image: url('../../images/jeans.jpg');
+    background-size: cover;
+    height: 24em;
+    width: 44em;
+}
+
+.project-details{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}
+
+#featured{
+    margin: 1em 0 0.5em 0;
+}
+
+.project-name{
+    font-size: 2em;
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+
+.project-desc{
+    text-align: right;
+    background-color: lightgray;
+    padding: 1em;
+    z-index: 100;
+    width: 110%;
+    font-size: 1.1em;
+}
+.tech-stack{
+    margin: 1em 0;
+}
+
+.tech-stack-item {
+    display: inline;  
+    margin: 0 1em;  
+}
+#last-tech{
+    margin-right: 0;
+}
+.link{
+    margin-right: 0;
+}
+.project-links i{
+    display: inline;
+    margin-right: 0;
+    margin-left: 1em;
+}

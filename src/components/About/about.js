@@ -57,7 +57,7 @@ class About extends Component{
                     </div>
                 </div>
                 <div className = "picture-container">
-                    <img className = "picture" />
+                    <img className="picture" />
                 </div>
                 
             </div>

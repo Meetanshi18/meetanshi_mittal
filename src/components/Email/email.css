@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.email-container{
+    display: flex;
+    flex-flow: column;
+    width: 25px;
+    position: fixed;
+    left: 103em;
+    top: 32em;
+}
+
+.email{
+    transform: rotate(90deg);
+    margin-bottom: 10em;
+    font-weight: 600;
+}
+
+.bottom-line{
+    width: 0.5px;
+    height: 11em;
+    border: 0.5px solid black;
+    margin-left: 40%;
+    margin-top: 1em;
+}
