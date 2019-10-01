@@ -4,26 +4,56 @@
     padding: 0;
 }
 
+
 .subtitle-container{
     display: flex;
+    
     justify-content: left;
     align-items: center;
-    padding: 0 18em;
+    margin-top: 6em;
 }
 
 .num{
-    font-size: 1.5em;
+    margin: 0 0 0 1em;
 }
 
 .title{
-    font-size: 1.8em;
     margin: 0 0.4em; 
+    font-size: 1.1em;
     font-weight: bold;
 }
 
 .line{
     background-color: black;
-    border: 0.5px solid black;
-    width: 25em;
+    border: 0.1px solid black;
+    width: 30vw;
     height: 1px;
+}
+
+@media only screen and (min-width: 768px){
+    
+    .subtitle-container{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding: 0 18em;
+        margin-top: 6em;
+    }
+
+    .num{
+        font-size: 1.5em;
+    }
+
+    .title{
+        font-size: 1.8em;
+        margin: 0 0.4em; 
+        font-weight: bold;
+    }
+
+    .line{
+        background-color: black;
+        border: 0.5px solid black;
+        width: 25em;
+        height: 1px;
+    }
 }

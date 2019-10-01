@@ -5,13 +5,21 @@
 }
 
 .social-container{
-    display: flex;
-    flex-flow: column;
-    width: 25px;
-    position: fixed;
-    left: 3em;
-    top: 35em;
+    display: none;
 }
+
+/* for desktop */
+@media only screen and (min-width: 768px){
+    .social-container{
+        display: flex;
+        flex-flow: column;
+        width: 25px;
+        position: fixed;
+        left: 3em;
+        top: 35em;
+    }
+}
+
 
 .icon{
     margin: 1em 0;

@@ -6,27 +6,38 @@
 
 .subheading{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    margin-left: 8em;
-    margin-top: 8em;
+    margin-top: 5em;
 }
 
 .work-container{
     display: grid;
-    grid-template-columns: 1fr 5fr;
-    margin: 2em 36em;
+    grid-template-rows: 1fr 5fr;
 }
 
-.c-name{
-    padding: 1em 1em;
-    border-left: 2px solid gray;
-    
-}
+
 
 .c-name:hover{
     background-color: lightgray;
 }
+
+@media only screen and (max-width: 768px){
+    .company-names{
+        display: flex;
+        justify-content: center;
+        width: 90vw;
+        margin: 2em 1em; 
+    }
+    .c-name{
+        padding: 1em 1em;
+        width: 25vw;
+        text-align: center;
+        border-bottom: 2px solid gray;
+        
+    }
+}
+
 
 .company-desc{
     margin-left: 2em;
@@ -48,4 +59,53 @@
 i{
     margin-right: 0.5em;
 }
+
+@media only screen and (min-width: 768px){
+    .subheading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 8em;
+        margin-top: 8em;
+    }
+    
+    .work-container{
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        margin: 2em 36em 15em 36em;
+    }
+    
+    .c-name{
+        padding: 1em 1em;
+        border-left: 2px solid gray;
+        
+    }
+    
+    .c-name:hover{
+        background-color: lightgray;
+    }
+    
+    .company-desc{
+        margin-left: 2em;
+    }
+    
+    .job-position{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    
+    .date{
+        margin: 0.5em 0;
+    }
+    
+    .duty{
+        padding: 0.5em 0;
+    }
+    
+    i{
+        margin-right: 0.5em;
+    }
+}
+
+
 

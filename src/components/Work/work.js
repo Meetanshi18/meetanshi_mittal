@@ -21,7 +21,7 @@ class Work extends Component{
     render(){
         let company = this.state.company;
         let jobdesc;
-        if(company == 'upstatement'){
+        if(company === 'upstatement'){
             jobdesc = (
                 <div className = "c-desc" id ="upstatement-desc">
                     <div className = "job-position">
@@ -32,21 +32,21 @@ class Work extends Component{
                     </div>
                     <div className = "duties">
                         <div className = "duty">
-                            <i class="fa fas fa-caret-right"></i>
+                            <i className="fa fas fa-caret-right"></i>
                             Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern
                         </div>
                         <div className = "duty">
-                            <i class="fa fas fa-caret-right"></i>
+                            <i className="fa fas fa-caret-right"></i>
                             Helped solidify a brand direction for blistabloc that spans both packaging and web
                         </div>
                         <div className = "duty">
-                            <i class="fa fas fa-caret-right"></i>
+                            <i className="fa fas fa-caret-right"></i>
                             Interfaced with clients on a weekly basis, providing technological expertise
                         </div>
                     </div>
                 </div>
             )
-        } else if(company == 'scout'){
+        } else if(company === 'scout'){
             jobdesc = (
                 <div className = "c-desc" id ="scout-desc">
                     <div className = "job-position">
@@ -57,15 +57,15 @@ class Work extends Component{
                     </div>
                     <div className = "duties">
                         <div className = "duty">
-                            <i class="fa fas fa-caret-right"></i>
+                            <i className="fa fas fa-caret-right"></i>
                             Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern
                         </div>
                         <div className = "duty">
-                            <i class="fa fas fa-caret-right"></i>
+                            <i className="fa fas fa-caret-right"></i>
                             Helped solidify a brand direction for blistabloc that spans both packaging and web
                         </div>
                         <div className = "duty">
-                            <i class="fa fas fa-caret-right"></i>
+                            <i className="fa fas fa-caret-right"></i>
                             Interfaced with clients on a weekly basis, providing technological expertise
                         </div>
                     </div>
@@ -82,15 +82,15 @@ class Work extends Component{
                     </div>
                     <div className = "duties">
                         <div className = "duty">
-                            <i class="fa fas fa-caret-right"></i>
+                            <i className="fa fas fa-caret-right"></i>
                             Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern
                         </div>
                         <div className = "duty">
-                            <i class="fa fas fa-caret-right"></i>
+                            <i className="fa fas fa-caret-right"></i>
                             Helped solidify a brand direction for blistabloc that spans both packaging and web
                         </div>
                         <div className = "duty">
-                            <i class="fa fas fa-caret-right"></i>
+                            <i className="fa fas fa-caret-right"></i>
                             Interfaced with clients on a weekly basis, providing technological expertise
                         </div>
                     </div>

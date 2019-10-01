@@ -4,59 +4,164 @@
     padding: 0;
 }
 
-.featured-container{
-    display: grid;
-    grid-template-columns: 60fr 40fr;
-    padding: 2em 18em;
+@media only screen and (max-width:400px){
+    .featured-container-1{
+        background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../../images/jeans.jpg");
+        background-size: cover;
+        height: 24em;
+        width: 90%;
+        margin: 1em;
+        justify-content: center;
+    }
+    
+    .project-details-1{
+        display: flex;
+        flex-flow: column;
+        align-items: flex-end;
+    }
+    
+    #featured{
+        margin: 1em 14px 0.5em 14px;
+    }
+    
+    .project-name{
+        font-size: 2em;
+        font-weight: 600;
+        padding-bottom: 1em;
+        margin-right: 14px;
+        margin-left: 14px;
+    }
+    
+    .project-desc-2{
+        text-align: left;
+        font-size: 1.1em;
+        width: 70%;
+        margin-right: 14px;
+        margin-left: 1em;
+    }
+    .tech-stack{
+        margin: 2em 0 3em 0;
+    }
+    
+    .tech-stack-item{
+        display: inline;  
+        margin: 0 1em;  
+    }
+    #last-tech{
+        margin-right: 0;
+    }
+    .link{
+        margin-right: 0;
+    }
+    .project-links i{
+        display: inline;
+        margin-right: 0;
+        margin-left: 1em;
+    }
+    
+    /* ----------------------------------------------------------------------------------------------- */
+    .featured-container-2{
+        background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../../images/jeans.jpg");
+        background-size: cover;
+        height: 24em;
+        width: 90%;
+        margin: 1em;
+    }
+    
+    .project-details-2{
+        display: flex;
+        flex-flow: column;
+        align-items: flex-end;
+    }
+    
+    
 }
 
-.project-image{
-    background-image: url('../../images/jeans.jpg');
-    background-size: cover;
-    height: 24em;
-    width: 44em;
+
+@media only screen and (min-width: 768px){
+    .featured-container-1{
+        display: grid;
+        grid-template-columns: 60fr 40fr;
+        padding: 2em 18em;
+    }
+    
+    .project-image{
+        background-image: url('../../images/jeans.jpg');
+        background-size: cover;
+        height: 24em;
+        width: 44em;
+        z-index: 1;
+    }
+    
+    .project-details-1{
+        display: flex;
+        flex-flow: column;
+        align-items: flex-end;
+    }
+    
+    #featured{
+        margin: 1em 0 0.5em 0;
+    }
+    
+    .project-name{
+        font-size: 2em;
+        font-weight: 600;
+        padding-bottom: 1em;
+    }
+    
+    .project-desc-1{
+        text-align: right;
+        background-color: lightgray;
+        padding: 1em;
+        z-index: 100;
+        width: 110%;
+        font-size: 1.1em;
+    }
+    .tech-stack{
+        margin: 2em 0 3em 0;
+    }
+    
+    .tech-stack-item{
+        display: inline;  
+        margin: 0 1em;  
+    }
+    #last-tech{
+        margin-right: 0;
+    }
+    .link{
+        margin-right: 0;
+    }
+    .project-links i{
+        display: inline;
+        margin-right: 0;
+        margin-left: 1em;
+    }
+    
+    /* ----------------------------------------------------------------------------------------------- */
+    .featured-container-2{
+        display: grid;
+        grid-template-columns: 40fr 60fr;
+        padding: 2em 18em;
+    }
+    
+    .project-details-2{
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+    }
+    
+    .project-desc-2{
+        position: relative;
+        text-align: left;
+        background-color: lightgray;
+        padding: 1em;
+        z-index: 200;
+        width: 110%;
+        font-size: 1.1em;
+    }
+    
+    #firsttech, #firstlink{
+        margin-left: 0;
+    }
 }
 
-.project-details{
-    display: flex;
-    flex-flow: column;
-    align-items: flex-end;
-}
-
-#featured{
-    margin: 1em 0 0.5em 0;
-}
-
-.project-name{
-    font-size: 2em;
-    font-weight: 600;
-    padding-bottom: 1em;
-}
-
-.project-desc{
-    text-align: right;
-    background-color: lightgray;
-    padding: 1em;
-    z-index: 100;
-    width: 110%;
-    font-size: 1.1em;
-}
-.tech-stack{
-    margin: 1em 0;
-}
-
-.tech-stack-item {
-    display: inline;  
-    margin: 0 1em;  
-}
-#last-tech{
-    margin-right: 0;
-}
-.link{
-    margin-right: 0;
-}
-.project-links i{
-    display: inline;
-    margin-right: 0;
-    margin-left: 1em;
-}

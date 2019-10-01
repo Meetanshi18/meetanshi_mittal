@@ -9,15 +9,15 @@
     justify-content: center;
     align-items: left;
     flex-flow: column;
-    padding: 10em 18em;
+    padding: 10em 1em;
 }
 
 .name{
-    font-size: 5em;
+    font-size: 2em;
 }
 
 .about{
-    width: 30em;
+    width: 90vw;
     padding: 2em 0em
 }
 
@@ -30,3 +30,32 @@
     border: 1px solid black;
     width: 6em;
 }
+
+@media only screen and (min-width: 768px){
+    .intro-container{
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-flow: column;
+        padding: 10em 18em;
+    }
+    .name{
+        font-size: 5em;
+    }
+    
+    .about{
+        width: 30em;
+        padding: 2em 0em
+    }
+    
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        margin-top: 1em;
+        border: 1px solid black;
+        width: 6em;
+    }
+}
+

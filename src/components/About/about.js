@@ -6,7 +6,7 @@ class About extends Component{
     render(){
         return (
             <>
-            <Subtitle num = "01." title = "About Me" />
+            <Subtitle num = "01." title = "About Me" className="about-heading"/>
             <div className = "about-container">
                 <div className = "content">
                     <div className = "maininfo">

@@ -5,13 +5,13 @@
 }
 
 .about-container{
-    display: grid;
-    grid-template-columns: 60fr 40fr;
-    padding: 2em 18em;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 1em;
 }
 
 .maininfo{
-    width: 30em;
+    width: 90vw;
     font-size: 1.2em;
 }
 
@@ -30,10 +30,51 @@
     margin-right: 0.5em;
 }
 
+.picture-container{
+    display: flex;
+    justify-content: center;
+    margin: 2em 0 2em 0;
+}
+
 .picture{
-    margin: 0em 5em;
-    width: 20em;
-    height: 20em;
+    width: 16em;
+    height: 16em;
     background-image: url('C:\Users\meeta\Desktop\MyWebsite\my-website\src\images\professionalPhotoSquare.jpg');
     background-size: cover;
+}
+
+@media only screen and (min-width: 768px){
+    .about-container{
+        display: grid;
+        grid-template-columns: 60fr 40fr;
+        padding: 2em 18em;
+    }
+    
+    .maininfo{
+        width: 30em;
+        font-size: 1.2em;
+    }
+    
+    .tech-list{
+        padding: 2em 0em;
+        width: 30em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .list-item{
+        padding: 0.25em 0em;
+    }
+    
+    .bullet{
+        margin-right: 0.5em;
+    }
+    
+    .picture{
+        margin: 0em 5em;
+        width: 20em;
+        height: 20em;
+        background-image: url('C:\Users\meeta\Desktop\MyWebsite\my-website\src\images\professionalPhotoSquare.jpg');
+        background-size: cover;
+    }
 }
