@@ -1,23 +1,27 @@
-*{
-    font-size: 14px;
-    margin: 0;
-    padding: 0;
-}
-
+/* 
+#FFFFFF: white
+#000000: black 
+#001021: background blue
+#33C7F7: light blue
+#A1A6B4: light gray for text
+*/
 
 .subtitle-container{
-    display: flex;
-    
+    background-color: #001021;
+    color: #A1A6B4;
+    display: flex;    
     justify-content: left;
     align-items: center;
-    margin-top: 6em;
+    padding-top: 6em;
 }
 
 .num{
+    color: #33C7F7;
     margin: 0 0 0 1em;
 }
 
 .title{
+    color: white;
     margin: 0 0.4em; 
     font-size: 1.1em;
     font-weight: bold;
@@ -30,14 +34,16 @@
     height: 1px;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 800px){
     
     .subtitle-container{
+        background-color: #001021;
+        color: #A1A6B4;
         display: flex;
         justify-content: left;
         align-items: center;
         padding: 0 18em;
-        margin-top: 6em;
+        padding-top: 6em;
     }
 
     .num{

@@ -1,15 +1,24 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-}
+/* 
+#FFFFFF: white
+#000000: black 
+#001021: background blue
+#33C7F7: light blue
+#A1A6B4: light gray for text
+*/
 
 .social-container{
     display: none;
 }
 
+/* for tablets */
+@media only screen and (min-width: 600px){
+    .social-container{
+        display: none;
+    }
+}
+
 /* for desktop */
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 1200px){
     .social-container{
         display: flex;
         flex-flow: column;
@@ -23,12 +32,13 @@
 
 .icon{
     margin: 1em 0;
+    color: #A1A6B4;
 }
 
 .bottom-line{
     width: 0.5px;
     height: 11em;
-    border: 0.5px solid black;
+    border: 0.5px solid #A1A6B4;
     margin-left: 50%;
     margin-top: 1em;
 }

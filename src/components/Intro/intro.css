@@ -1,38 +1,93 @@
+/* 
+#FFFFFF: white
+#000000: black 
+#001021: background blue
+#33C7F7: light blue
+#A1A6B4: light gray for text
+*/
+
 *{
     font-size: 14px;
     margin: 0;
     padding: 0;
 }
 
-.intro-container{
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    flex-flow: column;
-    padding: 10em 1em;
+.hi{
+    color:#33C7F7;
+    font-weight: bold;
 }
 
-.name{
-    font-size: 2em;
-}
-
-.about{
-    width: 90vw;
-    padding: 2em 0em
-}
-
-.btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1em;
-    margin-top: 1em;
-    border: 1px solid black;
-    width: 6em;
-}
-
-@media only screen and (min-width: 768px){
+/* for mobile phones */
+@media only screen and (max-width: 600px){
     .intro-container{
+        background-color: #001021;
+        color: #A1A6B4;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-flow: column;
+        padding: 10em 1em;
+    }
+    
+    .name{
+        color: white;
+        font-size: 2em;
+    }
+    
+    .about{
+        width: 90vw;
+        padding: 2em 0em
+    }
+    
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        margin-top: 1em;
+        border: 1px solid #33C7F7;
+        width: 6em;
+    }
+}
+
+/* for tablets */
+@media only screen and (min-width: 600px) {
+    .intro-container{
+        background-color: #001021;
+        color: #A1A6B4;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-flow: column;
+        padding: 10em 1em;
+    }
+    
+    .name{
+        color: white;
+        font-size: 2em;
+    }
+    
+    .about{
+        width: 90vw;
+        padding: 2em 0em
+    }
+    
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        margin-top: 1em;
+        border: 1px solid #33C7F7;
+        width: 6em;
+    }
+}
+
+/* for desktops */
+@media only screen and (min-width: 800px){
+    .intro-container{
+        background-color: #001021;
+        color: #A1A6B4;
         display: flex;
         justify-content: center;
         align-items: left;
@@ -41,6 +96,7 @@
     }
     .name{
         font-size: 5em;
+        color: white;
     }
     
     .about{
@@ -54,7 +110,7 @@
         align-items: center;
         padding: 1em;
         margin-top: 1em;
-        border: 1px solid black;
+        border: 1px solid #33C7F7;
         width: 6em;
     }
 }

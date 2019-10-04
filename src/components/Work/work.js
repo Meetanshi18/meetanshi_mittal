@@ -32,15 +32,15 @@ class Work extends Component{
                     </div>
                     <div className = "duties">
                         <div className = "duty">
-                            <i className="fa fas fa-caret-right"></i>
+                            <i className="fa fas fa-caret-right bullet"></i>
                             Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern
                         </div>
                         <div className = "duty">
-                            <i className="fa fas fa-caret-right"></i>
+                            <i className="fa fas fa-caret-right bullet"></i>
                             Helped solidify a brand direction for blistabloc that spans both packaging and web
                         </div>
                         <div className = "duty">
-                            <i className="fa fas fa-caret-right"></i>
+                            <i className="fa fas fa-caret-right bullet"></i>
                             Interfaced with clients on a weekly basis, providing technological expertise
                         </div>
                     </div>
@@ -57,15 +57,15 @@ class Work extends Component{
                     </div>
                     <div className = "duties">
                         <div className = "duty">
-                            <i className="fa fas fa-caret-right"></i>
+                            <i className="fa fas fa-caret-right bullet"></i>
                             Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern
                         </div>
                         <div className = "duty">
-                            <i className="fa fas fa-caret-right"></i>
+                            <i className="fa fas fa-caret-right bullet"></i>
                             Helped solidify a brand direction for blistabloc that spans both packaging and web
                         </div>
                         <div className = "duty">
-                            <i className="fa fas fa-caret-right"></i>
+                            <i className="fa fas fa-caret-right bullet"></i>
                             Interfaced with clients on a weekly basis, providing technological expertise
                         </div>
                     </div>
@@ -82,15 +82,15 @@ class Work extends Component{
                     </div>
                     <div className = "duties">
                         <div className = "duty">
-                            <i className="fa fas fa-caret-right"></i>
+                            <i className="fa fas fa-caret-right bullet"></i>
                             Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern
                         </div>
                         <div className = "duty">
-                            <i className="fa fas fa-caret-right"></i>
+                            <i className="fa fas fa-caret-right bullet"></i>
                             Helped solidify a brand direction for blistabloc that spans both packaging and web
                         </div>
                         <div className = "duty">
-                            <i className="fa fas fa-caret-right"></i>
+                            <i className="fa fas fa-caret-right bullet"></i>
                             Interfaced with clients on a weekly basis, providing technological expertise
                         </div>
                     </div>

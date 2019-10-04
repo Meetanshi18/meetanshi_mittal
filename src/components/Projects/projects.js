@@ -10,7 +10,7 @@ class Projects extends Component {
                     <div className="project-card">
 
                         <div className="project-links">
-                            <i className="fa fa-folder-open-o fa-5x" aria-hidden="true" id="folder-icon"></i>
+                            <i className="fa fa-folder-open-o fa-4x" aria-hidden="true" id="folder-icon"></i>
                             <i className="fa fab fa-github fa-2x"></i>
                             <i className="fa fa-external-link fa-2x"></i>
                         </div>

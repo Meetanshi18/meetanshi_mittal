@@ -1,10 +1,14 @@
-*{
-    font-size: 14px;
-    margin: 0;
-    padding: 0;
-}
+/* 
+#FFFFFF: white
+#000000: black 
+#001021: background blue
+#33C7F7: light blue
+#A1A6B4: light gray for text
+*/
 
 .about-container{
+    background-color: #001021;
+    color: #A1A6B4;
     display: flex;
     flex-direction: column;
     padding: 2em 1em;
@@ -27,6 +31,7 @@
 }
 
 .bullet{
+    color: #33C7F7;
     margin-right: 0.5em;
 }
 
@@ -39,12 +44,15 @@
 .picture{
     width: 16em;
     height: 16em;
-    background-image: url('C:\Users\meeta\Desktop\MyWebsite\my-website\src\images\professionalPhotoSquare.jpg');
+    background: linear-gradient(rgba(51,199,247,.5), rgba(51,199,247,.5)), url("../../images/professionalPhotoSquare.jpg");
+    /* background-image: url('C:\Users\meeta\Desktop\MyWebsite\my-website\src\images\professionalPhotoSquare.jpg'); */
     background-size: cover;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 800px){
     .about-container{
+        background-color: #001021;
+        color: #A1A6B4;
         display: grid;
         grid-template-columns: 60fr 40fr;
         padding: 2em 18em;
@@ -68,13 +76,14 @@
     
     .bullet{
         margin-right: 0.5em;
+        color: #33C7F7;
     }
     
     .picture{
         margin: 0em 5em;
         width: 20em;
         height: 20em;
-        background-image: url('C:\Users\meeta\Desktop\MyWebsite\my-website\src\images\professionalPhotoSquare.jpg');
+        background: linear-gradient(rgba(51,199,247,.4), rgba(51,199,247,.4)), url("../../images/professionalPhotoSquare.jpg");
         background-size: cover;
     }
 }

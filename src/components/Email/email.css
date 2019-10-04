@@ -17,12 +17,13 @@
     transform: rotate(90deg);
     margin-bottom: 10em;
     font-weight: 600;
+    color: #A1A6B4;
 }
 
 .bottom-line{
     width: 0.5px;
     height: 11em;
-    border: 0.5px solid black;
+    border: 0.5px solid #A1A6B4;
     margin-left: 40%;
     margin-top: 1em;
 }

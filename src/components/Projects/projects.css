@@ -1,10 +1,15 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-}
+/* 
+#FFFFFF: white
+#000000: black 
+#001021: background blue
+#33C7F7: light blue
+#A1A6B4: light gray for text
+#17324F: project-card color
+*/
 
 .heading {
+    background-color: #001021;
+    color: #A1A6B4;
     font-size: 2rem;
     display: flex;
     justify-content: center;
@@ -12,11 +17,27 @@
 }
 
 .projects-collection {
+    background-color: #001021;
+    color: #A1A6B4;
     margin: 4em 10em;
     justify-content: center;
 }
 
-@media only screen and (min-width:768px){
+/* for tablets */
+@media only screen and (min-width: 600px) and (max-width: 800px){
+    .projects-collection {        
+        margin: 4em 10em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* grid-auto-rows: 300px; */
+        column-gap: 1em;
+        row-gap: 1em;
+        justify-content: center;
+    } 
+}
+
+/* for desktop */
+@media only screen and (min-width:800px){
     .projects-collection {
         margin: 4em 10em;
         display: grid;
@@ -28,6 +49,8 @@
     }  
 }
 .projects-container{
+    background-color: #001021;
+    color: #A1A6B4;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,7 +62,7 @@
 .project-card{
     width: 310px;
     height: 350px;
-    background-color: gray;
+    background-color: #17324F;
     margin-bottom: 2em;
 }
 
@@ -51,8 +74,9 @@
 
 #folder-icon{
     /* width:100%; */
-    margin-left: 0;
+    margin-left: 0.1em;
     flex-grow: 10;
+    color: #33C7F7;
 }
 
 .project-title{

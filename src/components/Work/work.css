@@ -1,32 +1,23 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
+/* 
+#FFFFFF: white
+#000000: black 
+#001021: background blue
+#33C7F7: light blue
+#A1A6B4: light gray for text
+*/
+
+#company-name{
+    color: #A1A6B4;
 }
-
-.subheading{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    margin-top: 5em;
+.bullet{
+    color: #33C7F7;
 }
-
-.work-container{
-    display: grid;
-    grid-template-rows: 1fr 5fr;
-}
-
-
-
-.c-name:hover{
-    background-color: lightgray;
-}
-
-@media only screen and (max-width: 768px){
+/* for mobile phones */
+@media only screen and (max-width: 600px){
     .company-names{
         display: flex;
         justify-content: center;
-        width: 90vw;
+        width: 100vw;
         margin: 2em 1em; 
     }
     .c-name{
@@ -36,54 +27,30 @@
         border-bottom: 2px solid gray;
         
     }
-}
-
-
-.company-desc{
-    margin-left: 2em;
-}
-
-.job-position{
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.date{
-    margin: 0.5em 0;
-}
-
-.duty{
-    padding: 0.5em 0;
-}
-
-i{
-    margin-right: 0.5em;
-}
-
-@media only screen and (min-width: 768px){
     .subheading{
+        background-color: #001021;
+        color: #A1A6B4;
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
-        margin-left: 8em;
-        margin-top: 8em;
+        padding-top: 5em;
     }
     
     .work-container{
+        background-color: #001021;
+        color: #A1A6B4;
         display: grid;
-        grid-template-columns: 1fr 5fr;
-        margin: 2em 36em 15em 36em;
+        grid-template-rows: 1fr 5fr;
     }
     
-    .c-name{
-        padding: 1em 1em;
-        border-left: 2px solid gray;
-        
-    }
+    
     
     .c-name:hover{
-        background-color: lightgray;
+        color:#33C7F7;
+        background-color: #17324F;
+        border-bottom: 2px solid #33C7F7;
     }
+    
     
     .company-desc{
         margin-left: 2em;
@@ -92,6 +59,7 @@ i{
     .job-position{
         font-size: 1.5em;
         font-weight: bold;
+        color: #33C7F7;
     }
     
     .date{
@@ -102,9 +70,112 @@ i{
         padding: 0.5em 0;
     }
     
-    i{
-        margin-right: 0.5em;
+}
+
+/* for tablets */
+@media only screen and (min-width: 600px) and (max-width: 768px){
+    .subheading{
+        background-color: #001021;
+        color: #A1A6B4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 8em;
+        padding-top: 8em;
     }
+    
+    .work-container{
+        background-color: #001021;
+        color: #A1A6B4;
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        padding: 2em 1em 15em 1em;
+        justify-content: center;
+    }
+    
+    .c-name{
+        padding: 1em 1em;
+        border-left: 2px solid gray;
+        
+    }
+    
+    .c-name:hover{
+        border-left: 2px solid #33C7F7;
+        color:#33C7F7;
+        background-color: #17324F;
+    }
+    
+    .company-desc{
+        margin-left: 2em;
+    }
+    
+    .job-position{
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #33C7F7;
+    }
+    
+    .date{
+        margin: 0.5em 0;
+    }
+    
+    .duty{
+        padding: 0.5em 0;
+    }
+    
+}
+
+/* for desktop */
+@media only screen and (min-width: 800px){
+    .subheading{
+        background-color: #001021;
+        color: #A1A6B4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 8em;
+        padding-top: 8em;
+    }
+    
+    .work-container{
+        background-color: #001021;
+        color: #A1A6B4;
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        padding: 2em 36em 15em 36em;
+    }
+    
+    .c-name{
+        padding: 1em 1em;
+        border-left: 2px solid gray;
+        
+    }
+    
+    .c-name:hover{
+        border-left: 2px solid #33C7F7;
+        color:#33C7F7;
+        background-color: #17324F;
+    }
+    
+    .company-desc{
+        margin-left: 2em;
+    }
+    
+    .job-position{
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #33C7F7;
+    }
+    
+    .date{
+        margin: 0.5em 0;
+    }
+    
+    .duty{
+        padding: 0.5em 0;
+    }
+    
+
 }
 
 
