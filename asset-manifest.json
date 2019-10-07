@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/meetanshi_mittal/static/css/main.4a480d38.chunk.css",
+    "main.js": "/meetanshi_mittal/static/js/main.e9110757.chunk.js",
+    "main.js.map": "/meetanshi_mittal/static/js/main.e9110757.chunk.js.map",
+    "runtime~main.js": "/meetanshi_mittal/static/js/runtime~main.ce1e63be.js",
+    "runtime~main.js.map": "/meetanshi_mittal/static/js/runtime~main.ce1e63be.js.map",
+    "static/js/2.7b426b8b.chunk.js": "/meetanshi_mittal/static/js/2.7b426b8b.chunk.js",
+    "static/js/2.7b426b8b.chunk.js.map": "/meetanshi_mittal/static/js/2.7b426b8b.chunk.js.map",
+    "index.html": "/meetanshi_mittal/index.html",
+    "precache-manifest.f7d1d1264b8a57521cf91474c2e842d6.js": "/meetanshi_mittal/precache-manifest.f7d1d1264b8a57521cf91474c2e842d6.js",
+    "service-worker.js": "/meetanshi_mittal/service-worker.js",
+    "static/css/main.4a480d38.chunk.css.map": "/meetanshi_mittal/static/css/main.4a480d38.chunk.css.map",
+    "static/media/featured.css": "/meetanshi_mittal/static/media/jeans.508d01b9.jpg",
+    "static/media/about.css": "/meetanshi_mittal/static/media/professionalPhotoSquare.da4c83b5.jpg"
+  }
+}
