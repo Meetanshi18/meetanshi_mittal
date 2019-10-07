@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b4066504232bb435c794dfb8ba646b3",
+    "revision": "f2a06f2a1a42b5772bc8478761b830be",
     "url": "/meetanshi_mittal/index.html"
   },
   {
-    "revision": "86fcc65a906e8719b720",
+    "revision": "6b48b6b81ddbf7b27142",
     "url": "/meetanshi_mittal/static/css/main.4a480d38.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/meetanshi_mittal/static/js/2.7b426b8b.chunk.js"
   },
   {
-    "revision": "86fcc65a906e8719b720",
-    "url": "/meetanshi_mittal/static/js/main.e9110757.chunk.js"
+    "revision": "6b48b6b81ddbf7b27142",
+    "url": "/meetanshi_mittal/static/js/main.f4f29ee7.chunk.js"
   },
   {
     "revision": "bba6b33d6f6f550e5d9c",
