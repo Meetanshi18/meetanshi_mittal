@@ -10,7 +10,7 @@ class About extends Component{
             <div className = "about-container">
                 <div className = "content">
                     <div className = "maininfo">
-                        Hello! I'm Brittany, a software engineer based in Boston, MA who enjoys building things that live on the internet. 
+                        Hello! I'm Meetanshi, a software engineer based in Noida, India who enjoys building things that live on the internet. 
                         I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient 
                         and modern backends.<br/><br/>Shortly after graduating from Northeastern University, I joined the engineering team at 
                         Upstatement where I work on a wide variety of interesting and meaningful projects on a daily basis.<br/><br/>Here's a 
@@ -20,7 +20,7 @@ class About extends Component{
                         <div className = "list-left">
                             <div className = "list-item">
                             <i className="fa fa-angle-right bullet"></i>
-                                JavaScript (ES6+)
+                                C++
                             </div>
                             <div className = "list-item">
                             <i className="fa fa-angle-right bullet"></i>
@@ -28,30 +28,30 @@ class About extends Component{
                             </div>
                             <div className = "list-item">
                             <i className="fa fa-angle-right bullet"></i>
-                                JavaScript (ES6+)
+                                Python
                             </div>
                             <div className = "list-item">
                             <i className="fa fa-angle-right bullet"></i>
-                                JavaScript (ES6+)
+                                React
                             </div>
                             
                         </div>
                         <div className = "list-right">
                         <div className = "list-item">
                             <i className="fa fa-angle-right bullet"></i>
-                                JavaScript (ES6+)
+                                MongoDB
                             </div>
                             <div className = "list-item">
                             <i className="fa fa-angle-right bullet"></i>
-                                JavaScript (ES6+)
+                                NodeJS
                             </div>
                             <div className = "list-item">
                             <i className="fa fa-angle-right bullet"></i>
-                                JavaScript (ES6+)
+                                Git
                             </div>
                             <div className = "list-item">
                             <i className="fa fa-angle-right bullet"></i>
-                                JavaScript (ES6+)
+                                Adobe Photoshop
                             </div>
                         </div>
                     </div>

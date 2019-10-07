@@ -12,10 +12,10 @@ class Intro extends Component{
                     Meetanshi Mittal.
                 </div>
                 <div className = "name">
-                    I build things for the web.
+                    I learn. I code. I build.
                 </div>
                 <div className = "about">
-                    I'm a software engineer based in Boston, MA specializing in building (and occasionally designing) exceptional, high-quality websites and applications.
+                    I am a Computer Science undergraduate based in Noida, India. I have experience in building web applications. Currently also exploring different specializations.
                 </div>
                 <div className = "btn">
                     Get In Touch
