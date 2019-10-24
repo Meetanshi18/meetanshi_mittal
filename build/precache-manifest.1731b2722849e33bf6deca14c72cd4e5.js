@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0319e1116eefb2f865892a4c63e775de",
+    "revision": "31761dfc481bf8ac00c08c0f23ad43b0",
     "url": "/meetanshi_mittal/index.html"
   },
   {
-    "revision": "cf21aa7915a5b7440a9b",
-    "url": "/meetanshi_mittal/static/css/main.78d83f5d.chunk.css"
+    "revision": "3c52db0ec4387e23f6d1",
+    "url": "/meetanshi_mittal/static/css/main.1d5d4089.chunk.css"
   },
   {
     "revision": "8e1d7594879236e58f20",
     "url": "/meetanshi_mittal/static/js/2.7b426b8b.chunk.js"
   },
   {
-    "revision": "cf21aa7915a5b7440a9b",
-    "url": "/meetanshi_mittal/static/js/main.f5a83667.chunk.js"
+    "revision": "3c52db0ec4387e23f6d1",
+    "url": "/meetanshi_mittal/static/js/main.1c1ad510.chunk.js"
   },
   {
     "revision": "bba6b33d6f6f550e5d9c",

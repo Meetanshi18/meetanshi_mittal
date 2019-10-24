@@ -89,14 +89,14 @@
     margin: 0 1.5em;
 }
 
-.project-techstack ul {
+.project-techlist ul {
     list-style-type: none;
     position: absolute;
     bottom: 15px;
     margin: 100px 1em 0 0.5em;
 }
 
-.project-techstack ul li {
+.project-techlist ul li {
     display: inline;
     margin: 0 1em;
     

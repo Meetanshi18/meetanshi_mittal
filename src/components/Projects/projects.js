@@ -19,7 +19,7 @@ class Projects extends Component {
                         <div className="project-desc">
                             A simple machine learning project to predict American sign language alphabet from images.
                         </div>
-                        <div className="project-techstack">
+                        <div className="project-techlist">
                             <ul>
                                 <li>Python</li>
                                 <li>OpenCV</li>
@@ -38,7 +38,7 @@ class Projects extends Component {
                         <div className="project-desc">
                             A complete login, signup API using JWT along with some additional features of online shopping like product catalog and users placing orders.
                         </div>
-                        <div className="project-techstack">
+                        <div className="project-techlist">
                             <ul>
                                 <li>Node</li>
                                 <li>Express</li>
@@ -59,7 +59,7 @@ class Projects extends Component {
                         
                         </div>
 
-                        <div className="project-techstack">
+                        <div className="project-techlist">
                             <ul>
                                 <li>HTML</li>
                                 <li>JavaScript</li>

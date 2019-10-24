@@ -32,7 +32,7 @@ class Featured extends Component{
                             </ul>
 
                         </div>
-                        <div className = "project-links detail">
+                        <div className = "project-link">
 
                                 <a href="https://github.com/Meetanshi18/crop-burning-analysis" target="_blank" >
                                     <i className="fa fa-github fa-2x" ></i>
@@ -63,7 +63,7 @@ class Featured extends Component{
                             </ul>
 
                         </div>
-                        <div className = "project-links detail">
+                        <div className = "project-link">
                             <a href="https://github.com/Meetanshi18/Farmelp" target="_blank">
                                 <i className="fa fa-github fa-2x" id = "firstlink"></i>
                             </a>                               
