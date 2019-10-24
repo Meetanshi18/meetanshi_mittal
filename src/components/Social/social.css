@@ -10,6 +10,15 @@
     display: none;
 }
 
+a{
+    text-decoration: none;
+    color: #A1A6B4 !important;
+}
+
+a:hover{
+    color: #33C7F7 !important;
+}
+
 /* for tablets */
 @media only screen and (min-width: 600px){
     .social-container{

@@ -64,6 +64,7 @@
     height: 350px;
     background-color: #17324F;
     margin-bottom: 2em;
+    position: relative;
 }
 
 .project-links{
@@ -90,6 +91,8 @@
 
 .project-techstack ul {
     list-style-type: none;
+    position: absolute;
+    bottom: 15px;
     margin: 100px 1em 0 0.5em;
 }
 

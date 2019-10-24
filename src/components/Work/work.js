@@ -33,15 +33,15 @@ class Work extends Component{
                     <div className = "duties">
                         <div className = "duty">
                             <i className="fa fas fa-caret-right bullet"></i>
-                            Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern
+                            Went through an intensive one month long bootcamp where I learnt about good coding practices. I learnt to write readable, changeable and testable code.
                         </div>
                         <div className = "duty">
                             <i className="fa fas fa-caret-right bullet"></i>
-                            Helped solidify a brand direction for blistabloc that spans both packaging and web
+                            Learnt about object-oriented designs, programming languages new to me like Python, making documents using Latex and much more in a very short period of time.
                         </div>
                         <div className = "duty">
                             <i className="fa fas fa-caret-right bullet"></i>
-                            Interfaced with clients on a weekly basis, providing technological expertise
+                            Enjoyed working long hours and in the last week made a machine learning project from scratch and learnt about the basic concepts and algorithms used in machine learning.
                         </div>
                     </div>
                 </div>
@@ -58,16 +58,15 @@ class Work extends Component{
                     <div className = "duties">
                         <div className = "duty">
                             <i className="fa fas fa-caret-right bullet"></i>
-                            Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern
+                            Developer Student Clubs has been an integral part of my college life and it has helped me boost my developer skills. I've worked with seniors on various web applications, building wireframes and adding javascript functionality.
                         </div>
                         <div className = "duty">
                             <i className="fa fas fa-caret-right bullet"></i>
-                            Helped solidify a brand direction for blistabloc that spans both packaging and web
+                            Conducted workshops on frontend and backend web developement, pwa, flutter and other latest technologies.
                         </div>
                         <div className = "duty">
                             <i className="fa fas fa-caret-right bullet"></i>
-                            Interfaced with clients on a weekly basis, providing technological expertise
-                        </div>
+                            Being a core team member, played a major role in organizing hackathons, tech-talks and other events.                        </div>
                     </div>
                 </div>
             )
@@ -83,15 +82,15 @@ class Work extends Component{
                     <div className = "duties">
                         <div className = "duty">
                             <i className="fa fas fa-caret-right bullet"></i>
-                            Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern
+                            I had an amazing time working with this startup trying to provide a platform to emerging artists. I got amazing mentors who always pushed me to do my best work.
                         </div>
                         <div className = "duty">
                             <i className="fa fas fa-caret-right bullet"></i>
-                            Helped solidify a brand direction for blistabloc that spans both packaging and web
+                            Integrated Instagram and Youtube API calls with their web app.
                         </div>
                         <div className = "duty">
                             <i className="fa fas fa-caret-right bullet"></i>
-                            Interfaced with clients on a weekly basis, providing technological expertise
+                            Learnt React on the go and built a basic application using it.
                         </div>
                     </div>
                 </div>
@@ -108,15 +107,15 @@ class Work extends Component{
                     <div className = "duties">
                         <div className = "duty">
                             <i className="fa fas fa-caret-right bullet"></i>
-                            Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern
+                            Worked remotely with a team of designers to design and create clean and beautiful digital marketing content like posters, logos and background covers for social media.
                         </div>
                         <div className = "duty">
                             <i className="fa fas fa-caret-right bullet"></i>
-                            Helped solidify a brand direction for blistabloc that spans both packaging and web
+                            I got to learn working with Adobe Photoshop and Adobe Illustrator.
                         </div>
                         <div className = "duty">
                             <i className="fa fas fa-caret-right bullet"></i>
-                            Interfaced with clients on a weekly basis, providing technological expertise
+                            Communicated with team members weekly to refine our designs and think of creative ideas.
                         </div>
                     </div>
                 </div>

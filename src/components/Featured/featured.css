@@ -13,7 +13,7 @@
 
 @media only screen and (max-width:400px){
     .featured-container-1{
-        background: linear-gradient(rgba(51,199,247,.5), rgba(51,199,247,.5)), url("../../images/jeans.jpg");
+        background: linear-gradient(rgba(51,199,247,.5), rgba(51,199,247,.5)), url("../../images/crop-burning.png");
         background-size: cover;
         height: 24em;
         width: 90%;
@@ -68,7 +68,7 @@
     
     /* ----------------------------------------------------------------------------------------------- */
     .featured-container-2{
-        background: linear-gradient(rgba(51,199,247,.5), rgba(51,199,247,.5)), url("../../images/jeans.jpg");
+        background: linear-gradient(rgba(51,199,247,.5), rgba(51,199,247,.5)), url("../../images/farmelp.png");
         background-size: cover;
         height: 24em;
         width: 90%;
@@ -91,8 +91,15 @@
         padding: 2em 1em;
     }
     
-    .project-image{
-        background: linear-gradient(rgba(51,199,247,.5), rgba(51,199,247,.5)), url("../../images/jeans.jpg");
+    .project-image-1{
+        background: linear-gradient(rgba(51,199,247,.5), rgba(51,199,247,.5)), url("../../images/crop-burning.png");
+        background-size: cover;
+        height: 24em;
+        width: 60vw;
+        z-index: 1;
+    }
+    .project-image-2{
+        background: linear-gradient(rgba(51,199,247,.5), rgba(51,199,247,.5)), url("../../images/farmelp.png");
         background-size: cover;
         height: 24em;
         width: 60vw;
@@ -181,8 +188,24 @@
         padding: 2em 18em;
     }
     
-    .project-image{
-        background: linear-gradient(rgba(51,199,247,.5), rgba(51,199,247,.5)), url("../../images/jeans.jpg");
+    .project-image-1{
+        background: url("../../images/crop-burning.png");
+        background-size: cover;
+        height: 24em;
+        width: 44em;
+        z-index: 1;
+    }
+    .project-image-1:hover{
+        background: linear-gradient(rgba(51,199,247,.5), rgba(51,199,247,.5)), url("../../images/crop-burning.png");
+        background-size: cover;
+    }
+
+    .project-image-2:hover{
+        background: linear-gradient(rgba(51,199,247,.5), rgba(51,199,247,.5)), url("../../images/farmelp.png");
+        background-size: cover;
+    }
+    .project-image-2{
+        background: url("../../images/farmelp.png");
         background-size: cover;
         height: 24em;
         width: 44em;

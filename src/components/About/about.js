@@ -10,11 +10,7 @@ class About extends Component{
             <div className = "about-container">
                 <div className = "content">
                     <div className = "maininfo">
-                        Hello! I'm Meetanshi, a software engineer based in Noida, India who enjoys building things that live on the internet. 
-                        I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient 
-                        and modern backends.<br/><br/>Shortly after graduating from Northeastern University, I joined the engineering team at 
-                        Upstatement where I work on a wide variety of interesting and meaningful projects on a daily basis.<br/><br/>Here's a 
-                        few technologies I've been working with recently:
+                    Hello! I'm Meetanshi, a software engineering student at Jaypee Institute of Information Technology Noida, India who enjoys building things that go live on the internet. I develop web apps that provide intuitive user interfaces with efficient backends.<br/><br/>I've been sharpening my skills in data structures and algorithms for quite some time now and I feel pretty confident in them. I'm currently a third year student looking for summer internships in top tech companies. Here's a few technologies I've been working with recently:
                     </div>
                     <div className = "tech-list">
                         <div className = "list-left">

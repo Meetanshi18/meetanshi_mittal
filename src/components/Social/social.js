@@ -5,10 +5,14 @@ const Social = ()=>{
     return (
         <div className = "social-container">
             <div className = "github icon">
-                <i className="fa fab fa-github fa-2x"></i>
+                <a href="https://github.com/Meetanshi18" target="_blank">
+                    <i className="fa fab fa-github fa-2x"></i>
+                </a>                
             </div>
             <div className = "linkedin icon">
-                <i className="fa fab fa-linkedin fa-2x"></i>
+                <a href="https://www.linkedin.com/in/meetanshi-mittal-2a6270176/" target="_blank">
+                    <i className="fa fab fa-linkedin fa-2x"></i>
+                </a>
             </div>
             {/* <div className = "facebook icon">
                 <i className="fa fab fa-facebook fa-2x"></i>
