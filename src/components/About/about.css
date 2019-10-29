@@ -10,6 +10,7 @@
     background-color: #001021;
     color: #A1A6B4;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     padding: 2em 1em;
 }
@@ -49,7 +50,7 @@
     background-size: cover;
 }
 
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 1045px){
     .about-container{
         background-color: #001021;
         color: #A1A6B4;

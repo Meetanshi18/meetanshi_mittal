@@ -13,10 +13,7 @@ class Featured extends Component{
                         
                     </div>
                     <div className = "project-details-1">
-                        <div className = "detail" id = "featured">
-                            Featured Project
-                        </div>
-                        <div className = "project-name detail">
+                        <div className = "project-name-1 detail">
                             Crop Burning Analysis
                         </div>
                         <div className = "project-desc-1 detail">
@@ -44,11 +41,8 @@ class Featured extends Component{
                 </div>
                 <div className = "featured-container-2">
                     
-                    <div className = "project-details">
-                        <div className = "detail" id = "featured">
-                            Featured Project
-                        </div>
-                        <div className = "project-name detail">
+                    <div className = "project-details-2">
+                        <div className = "project-name-2 detail">
                             Farmelp
                         </div>
                         <div className = "project-desc-2 detail">

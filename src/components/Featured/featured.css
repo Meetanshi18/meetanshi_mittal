@@ -6,123 +6,98 @@
 #A1A6B4: light gray for text
 */
 
-.featured-container-main{
-    background-color: #001021;
+.featured-container-1{
+    background: #001021;
     color: #A1A6B4;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 60fr 40fr;
+    padding: 2em 18em;
+    position: relative;
 }
 
-@media only screen and (max-width:400px){
-    .featured-container-1{
-        background: linear-gradient(rgba(51,199,247,.5), rgba(51,199,247,.5)), url("../../images/crop-burning.png");
-        background-size: cover;
-        height: 24em;
-        width: 90%;
-        margin: 1em;
-        justify-content: center;
-        position: relative;
-    }
-    
-    .project-details-1{
-        display: flex;
-        flex-flow: column;
-        align-items: flex-end;
-    }
-    
-    #featured{
-        margin: 1em 14px 0.5em 14px;
-    }
-    
-    .project-name{
-        font-size: 2em;
-        font-weight: 600;
-        padding-bottom: 1em;
-        margin-right: 14px;
-        margin-left: 14px;
-    }
-    
-    .project-desc-2{
-        text-align: left;
-        font-size: 1.1em;
-        width: 70%;
-        margin-right: 14px;
-        margin-left: 1em;
-    }
-    .tech-stack{
-        margin: 2em 0 2em 0;
-    }
-    
-    .tech-stack-item{
-        display: inline;  
-        margin: 0 1em;  
-    }
-    #last-tech{
-        margin-right: 0;
-    }
-    .link{
-        margin-right: 0;
-    }
-    .project-links i{
-        display: inline;
-        margin-right: 0;
-        margin-left: 1em;
-    }
-    
-    /* ----------------------------------------------------------------------------------------------- */
-    .featured-container-2{
-        background: linear-gradient(rgba(51,199,247,.5), rgba(51,199,247,.5)), url("../../images/farmelp.png");
-        background-size: cover;
-        height: 24em;
-        width: 90%;
-        margin: 1em;
-        position: relative;
-    }
-    
-    .project-details-2{
-        display: flex;
-        flex-flow: column;
-        align-items: flex-end;
-    }
-    
-    
+.project-image-1{
+    background: url("../../images/crop-burning.png");
+    background-size: cover;
+    height: 24em;
+    width: 44em;
+    z-index: 1;
+}
+.project-image-1:hover{
+    background: linear-gradient(rgba(51,199,247,.5), rgba(51,199,247,.5)), url("../../images/crop-burning.png");
+    background-size: cover;
 }
 
-@media only screen and (min-width: 768px) {
-    .featured-container-1{
-        display: grid;
-        grid-template-columns: 60fr 40fr;
-        padding: 2em 1em;
-        position: relative;
-    }
+.project-image-2:hover{
+    background: linear-gradient(rgba(51,199,247,.5), rgba(51,199,247,.5)), url("../../images/farmelp.png");
+    background-size: cover;
+}
+.project-image-2{
+    background: url("../../images/farmelp.png");
+    background-size: cover;
+    height: 24em;
+    width: 44em;
+    z-index: 1;
+}
+
+.project-details-1{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}
+
+#featured{
+    margin: 1em 0 0.5em 0;
+}
+
+.project-name-1{
+    font-size: 2em;
+    font-weight: 600;
+    padding-bottom: 1em;
+    text-align: right;
+}
+
+.project-desc-1{
+    text-align: right;
+    background-color: #17324F;
+    padding: 1em;
+    z-index: 100;
+    width: 180%;
+    font-size: 1.1em;
+}
+.tech-stack{
+    margin: 2em 0 2em 0;
+    width: 140%;
+}
+
+.tech-stack-item{
+    display: inline;  
+    margin: 0 1em;  
+}
+#last-tech{
+    margin-right: 0;
+}
+.link{
+    margin-right: 0;
+}
+.project-links i{
+    display: inline;
+    margin-right: 0;
+    margin-left: 1em;
+}
+
+/* RESPONSIVE STYLES */
+@media screen and (max-width: 1045px){
+    
     
     .project-image-1{
-        background: linear-gradient(rgba(51,199,247,.5), rgba(51,199,247,.5)), url("../../images/crop-burning.png");
-        background-size: cover;
-        height: 24em;
-        width: 60vw;
-        z-index: 1;
-    }
-    .project-image-2{
-        background: linear-gradient(rgba(51,199,247,.5), rgba(51,199,247,.5)), url("../../images/farmelp.png");
-        background-size: cover;
-        height: 24em;
-        width: 60vw;
-        z-index: 1;
+        display: none;
     }
     
     .project-details-1{
         display: flex;
         flex-flow: column;
-        align-items: flex-end;
-    }
-    
-    #featured{
-        margin: 1em 0 0.5em 0;
-    }
-    
-    .project-name{
-        font-size: 2em;
-        font-weight: 600;
-        padding-bottom: 1em;
+        align-items: center;
     }
     
     .project-desc-1{
@@ -130,163 +105,100 @@
         background-color: #17324F;
         padding: 1em;
         z-index: 100;
-        width: 110%;
+        width: 150%;
         font-size: 1.1em;
     }
-    .tech-stack{
-        margin: 2em 0 2em 0;
+    .project-name-1{
+        text-align: center;
     }
+    .project-desc-1{
+        text-align: center;
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+.featured-container-2{
+    background: #001021;
+    color: #A1A6B4;
+    display: grid;
+    grid-template-columns: 40fr 60fr;
+    justify-content: center;
+    padding: 2em 18em;
+    position: relative;
+}
+
+.project-details-2{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.project-desc-2{
+    position: relative;
+    text-align: left;
+    background-color: #17324F;
+    padding: 1em;
+    z-index: 200;
+    width: 110%;
+    font-size: 1.1em;
+}
+
+.project-name-2{
+    font-size: 2em;
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+
+#firsttech, #firstlink{
+    margin-left: 0;
+}
+
+/* RESPONSIVE STYLES */
+@media screen and (max-width: 1045px){
     
-    .tech-stack-item{
-        display: inline;  
-        margin: 0 1em;  
-    }
-    #last-tech{
-        margin-right: 0;
-    }
-    .link{
-        margin-right: 0;
-    }
-    .project-links i{
-        display: inline;
-        margin-right: 0;
-        margin-left: 1em;
-    }
-    
-    /* ----------------------------------------------------------------------------------------------- */
-    .featured-container-2{
-        display: grid;
-        grid-template-columns: 40fr 60fr;
-        padding: 2em 1em;
-        position: relative;
+    .project-image-2{
+        display: none;
     }
     
     .project-details-2{
         display: flex;
         flex-flow: column;
-        align-items: flex-start;
+        align-items: center;
     }
     
     .project-desc-2{
-        position: relative;
-        text-align: left;
-        background-color: #17324F;
-        padding: 1em;
-        z-index: 200;
-        width: 110%;
-        font-size: 1.1em;
-    }
-    
-    #firsttech, #firstlink{
-        margin-left: 0;
-    }
-}
-
-
-
-
-@media only screen and (min-width: 800px){
-    .featured-container-1{
-        display: grid;
-        grid-template-columns: 60fr 40fr;
-        padding: 2em 18em;
-        position: relative;
-    }
-    
-    .project-image-1{
-        background: url("../../images/crop-burning.png");
-        background-size: cover;
-        height: 24em;
-        width: 44em;
-        z-index: 1;
-    }
-    .project-image-1:hover{
-        background: linear-gradient(rgba(51,199,247,.5), rgba(51,199,247,.5)), url("../../images/crop-burning.png");
-        background-size: cover;
-    }
-
-    .project-image-2:hover{
-        background: linear-gradient(rgba(51,199,247,.5), rgba(51,199,247,.5)), url("../../images/farmelp.png");
-        background-size: cover;
-    }
-    .project-image-2{
-        background: url("../../images/farmelp.png");
-        background-size: cover;
-        height: 24em;
-        width: 44em;
-        z-index: 1;
-    }
-    
-    .project-details-1{
-        display: flex;
-        flex-flow: column;
-        align-items: flex-end;
-    }
-    
-    #featured{
-        margin: 1em 0 0.5em 0;
-    }
-    
-    .project-name{
-        font-size: 2em;
-        font-weight: 600;
-        padding-bottom: 1em;
-    }
-    
-    .project-desc-1{
-        text-align: right;
+        text-align: center;
         background-color: #17324F;
         padding: 1em;
         z-index: 100;
-        width: 110%;
+        width: 150%;
         font-size: 1.1em;
     }
-    .tech-stack{
-        margin: 2em 0 2em 0;
-    }
-    
-    .tech-stack-item{
-        display: inline;  
-        margin: 0 1em;  
-    }
-    #last-tech{
-        margin-right: 0;
-    }
-    .link{
-        margin-right: 0;
-    }
-    .project-links i{
-        display: inline;
-        margin-right: 0;
-        margin-left: 1em;
-    }
-    
-    /* ----------------------------------------------------------------------------------------------- */
-    .featured-container-2{
-        display: grid;
-        grid-template-columns: 40fr 60fr;
-        padding: 2em 18em;
-        position: relative;
-    }
-    
-    .project-details-2{
-        display: flex;
-        flex-flow: column;
-        align-items: flex-start;
-    }
-    
-    .project-desc-2{
-        position: relative;
-        text-align: left;
-        background-color: #17324F;
-        padding: 1em;
-        z-index: 200;
-        width: 110%;
-        font-size: 1.1em;
-    }
-    
-    #firsttech, #firstlink{
-        margin-left: 0;
+    .project-name-2{
+        text-align: center;
     }
 }
 
+@media only screen and (max-width:525px){
+    .featured-container-1{
+        padding: 2em;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .project-desc-1{
+        width: 80%;
+    }
+
+    .featured-container-2{
+        padding: 2em;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .project-desc-2{
+        width: 80%;
+    }
+    
+}

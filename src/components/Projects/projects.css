@@ -21,33 +21,10 @@
     color: #A1A6B4;
     margin: 4em 10em;
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-/* for tablets */
-@media only screen and (min-width: 600px) and (max-width: 800px){
-    .projects-collection {        
-        margin: 4em 10em;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        /* grid-auto-rows: 300px; */
-        column-gap: 1em;
-        row-gap: 1em;
-        justify-content: center;
-    } 
-}
-
-/* for desktop */
-@media only screen and (min-width:800px){
-    .projects-collection {
-        margin: 4em 10em;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-auto-rows: 300px;
-        column-gap: 1em;
-        row-gap: 1em;
-        justify-content: center;
-    }  
-}
 .projects-container{
     background-color: #001021;
     color: #A1A6B4;
@@ -57,13 +34,11 @@
     align-items: center;
 }
 
-
-
 .project-card{
     width: 310px;
     height: 350px;
     background-color: #17324F;
-    margin-bottom: 2em;
+    margin: 0 1em 2em 1em;
     position: relative;
 }
 

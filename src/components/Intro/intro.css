@@ -18,7 +18,7 @@
 }
 
 /* for mobile phones */
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
     .intro-container{
         background-color: #001021;
         color: #A1A6B4;
@@ -36,6 +36,37 @@
     
     .about{
         width: 90vw;
+        padding: 2em 0em
+    }
+    
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        margin-top: 1em;
+        border: 1px solid #33C7F7;
+        width: 6em;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 850px){
+    .intro-container{
+        background-color: #001021;
+        color: #A1A6B4;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-flow: column;
+        padding: 10em 5em;
+    }
+    .name{
+        font-size: 5em;
+        color: white;
+    }
+    
+    .about{
+        width: 30em;
         padding: 2em 0em
     }
     
@@ -51,7 +82,7 @@
 }
 
 /* for tablets */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 850px) and (max-width: 1179px) {
     .intro-container{
         background-color: #001021;
         color: #A1A6B4;
@@ -59,16 +90,15 @@
         justify-content: center;
         align-items: left;
         flex-flow: column;
-        padding: 10em 1em;
+        padding: 10em 10em;
     }
-    
     .name{
+        font-size: 5em;
         color: white;
-        font-size: 2em;
     }
     
     .about{
-        width: 90vw;
+        width: 30em;
         padding: 2em 0em
     }
     
@@ -84,7 +114,7 @@
 }
 
 /* for desktops */
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 1180px){
     .intro-container{
         background-color: #001021;
         color: #A1A6B4;

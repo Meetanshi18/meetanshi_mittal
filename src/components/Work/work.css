@@ -73,7 +73,7 @@
 }
 
 /* for tablets */
-@media only screen and (min-width: 600px) and (max-width: 768px){
+@media only screen and (min-width: 600px) and (max-width: 999px){
     .subheading{
         background-color: #001021;
         color: #A1A6B4;
@@ -126,7 +126,7 @@
 }
 
 /* for desktop */
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 1000px){
     .subheading{
         background-color: #001021;
         color: #A1A6B4;
@@ -142,7 +142,7 @@
         color: #A1A6B4;
         display: grid;
         grid-template-columns: 1fr 5fr;
-        padding: 2em 36em 15em 36em;
+        padding: 2em 30vw 15em 30vw;
     }
     
     .c-name{
