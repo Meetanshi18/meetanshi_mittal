@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/meetanshi_mittal/static/css/main.1d5d4089.chunk.css",
-    "main.js": "/meetanshi_mittal/static/js/main.1c1ad510.chunk.js",
-    "main.js.map": "/meetanshi_mittal/static/js/main.1c1ad510.chunk.js.map",
+    "main.css": "/meetanshi_mittal/static/css/main.dd9c2565.chunk.css",
+    "main.js": "/meetanshi_mittal/static/js/main.a3efc05d.chunk.js",
+    "main.js.map": "/meetanshi_mittal/static/js/main.a3efc05d.chunk.js.map",
     "runtime~main.js": "/meetanshi_mittal/static/js/runtime~main.ce1e63be.js",
     "runtime~main.js.map": "/meetanshi_mittal/static/js/runtime~main.ce1e63be.js.map",
     "static/js/2.7b426b8b.chunk.js": "/meetanshi_mittal/static/js/2.7b426b8b.chunk.js",
     "static/js/2.7b426b8b.chunk.js.map": "/meetanshi_mittal/static/js/2.7b426b8b.chunk.js.map",
     "index.html": "/meetanshi_mittal/index.html",
-    "precache-manifest.1731b2722849e33bf6deca14c72cd4e5.js": "/meetanshi_mittal/precache-manifest.1731b2722849e33bf6deca14c72cd4e5.js",
+    "precache-manifest.b33bf2c5081791d54a84d31522f9b3aa.js": "/meetanshi_mittal/precache-manifest.b33bf2c5081791d54a84d31522f9b3aa.js",
     "service-worker.js": "/meetanshi_mittal/service-worker.js",
-    "static/css/main.1d5d4089.chunk.css.map": "/meetanshi_mittal/static/css/main.1d5d4089.chunk.css.map",
+    "static/css/main.dd9c2565.chunk.css.map": "/meetanshi_mittal/static/css/main.dd9c2565.chunk.css.map",
     "static/media/featured.css": "/meetanshi_mittal/static/media/farmelp.70992da7.png",
     "static/media/about.css": "/meetanshi_mittal/static/media/professionalPhotoSquare.da4c83b5.jpg"
   }
