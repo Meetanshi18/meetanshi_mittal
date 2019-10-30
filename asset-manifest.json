@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/meetanshi_mittal/static/css/main.dd9c2565.chunk.css",
-    "main.js": "/meetanshi_mittal/static/js/main.a3efc05d.chunk.js",
-    "main.js.map": "/meetanshi_mittal/static/js/main.a3efc05d.chunk.js.map",
-    "runtime~main.js": "/meetanshi_mittal/static/js/runtime~main.ce1e63be.js",
-    "runtime~main.js.map": "/meetanshi_mittal/static/js/runtime~main.ce1e63be.js.map",
-    "static/js/2.7b426b8b.chunk.js": "/meetanshi_mittal/static/js/2.7b426b8b.chunk.js",
-    "static/js/2.7b426b8b.chunk.js.map": "/meetanshi_mittal/static/js/2.7b426b8b.chunk.js.map",
-    "index.html": "/meetanshi_mittal/index.html",
-    "precache-manifest.b33bf2c5081791d54a84d31522f9b3aa.js": "/meetanshi_mittal/precache-manifest.b33bf2c5081791d54a84d31522f9b3aa.js",
-    "service-worker.js": "/meetanshi_mittal/service-worker.js",
-    "static/css/main.dd9c2565.chunk.css.map": "/meetanshi_mittal/static/css/main.dd9c2565.chunk.css.map",
-    "static/media/featured.css": "/meetanshi_mittal/static/media/farmelp.70992da7.png",
-    "static/media/about.css": "/meetanshi_mittal/static/media/professionalPhotoSquare.da4c83b5.jpg"
+    "main.css": "/static/css/main.d84b96c2.chunk.css",
+    "main.js": "/static/js/main.cf51ad58.chunk.js",
+    "main.js.map": "/static/js/main.cf51ad58.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.45925707.js",
+    "runtime~main.js.map": "/static/js/runtime~main.45925707.js.map",
+    "static/js/2.7b426b8b.chunk.js": "/static/js/2.7b426b8b.chunk.js",
+    "static/js/2.7b426b8b.chunk.js.map": "/static/js/2.7b426b8b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.992bf51247b9b8e269bb2f059f08e7bd.js": "/precache-manifest.992bf51247b9b8e269bb2f059f08e7bd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d84b96c2.chunk.css.map": "/static/css/main.d84b96c2.chunk.css.map",
+    "static/media/featured.css": "/static/media/farmelp.70992da7.png",
+    "static/media/about.css": "/static/media/professionalPhotoSquare.da4c83b5.jpg"
   }
 }
