@@ -2,7 +2,7 @@
   "name": "my-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://meetanshi18.github.io/meetanshi_mittal",
+  "homepage": "https://meetanshi.co",
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
